@@ -1,3 +1,6 @@
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
 import importlib
 import argparse
 import gc
