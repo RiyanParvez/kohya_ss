@@ -2,6 +2,8 @@ import argparse
 import torch
 from library import sdxl_model_util, sdxl_train_util, train_util
 import train_network
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 class SdxlNetworkTrainer(train_network.NetworkTrainer):
